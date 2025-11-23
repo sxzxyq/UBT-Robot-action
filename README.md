@@ -112,7 +112,3 @@ colcon test-result --all
 1. 语音文件路径：代码中默认语音路径为`/home/nvidia/data/speech/`，需确保该路径下存在对应音频文件（如`tixing1.mp3`、`thanks.mp3`等），或修改代码中的路径为实际音频位置。
 2. 依赖服务：机器人运动控制依赖`/hric/motion/set_motion_mode`和`/hric/motion/set_motion_number`服务，请确保机器人驱动节点已启动并提供这些服务。
 3. 目标坐标话题：默认订阅`/helmet/position_filtered_transformed`话题获取目标坐标，若实际话题不同，需在代码中修改订阅话题名称。
-
-
-## 许可证
-本项目基于Apache License 2.0开源（详见测试文件版权声明），具体许可证信息请补充至`package.xml`的`license`字段。
