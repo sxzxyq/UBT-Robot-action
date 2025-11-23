@@ -61,7 +61,7 @@ UBT-Robot-action是一个基于ROS 2的机器人动作控制包，主要实现�
    ros2 run action tiangong3
    ```
 
-2. **回收动作节点**（挥手动作）：
+2. **挥手动作节点**（挥手动作）：
    ```bash
    ros2 run action huishou
    ```
